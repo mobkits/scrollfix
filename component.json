@@ -1,0 +1,11 @@
+{
+  "name": "scrollfix",
+  "description": "fix over scroll on ios",
+  "repository": "chemzqm/scrollfix",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
