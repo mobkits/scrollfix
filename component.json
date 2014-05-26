@@ -2,7 +2,7 @@
   "name": "scrollfix",
   "description": "fix over scroll on ios",
   "repository": "chemzqm/scrollfix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "dependencies": {
     "component/removed": "*",
