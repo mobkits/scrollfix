@@ -42,6 +42,17 @@
   <div class="scrollable">
     <div class="content">
       scroll me
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
+      <div class="tmp">1111111111</div>
     </div>
   </div>
   <script src='build/build.js'></script>
@@ -55,8 +66,11 @@
     el.addEventListener('scroll', function(e) {
       console.log(el.scrollTop);
     });
+    document.querySelector('header').addEventListener('click', function() {
+      el.parentNode.removeChild(el);
+    }, false);
 
   </script>
-  <!--<script src="http://192.168.199.141:8081/target/target-script.js"></script>-->
+  <script src="http://192.168.199.79:8081/target/target-script.js"></script>
 </body>
 </html>

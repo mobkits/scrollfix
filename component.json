@@ -4,6 +4,10 @@
   "repository": "chemzqm/scrollfix",
   "version": "0.0.1",
   "main": "index.js",
+  "dependencies": {
+    "component/removed": "*",
+    "component/event": "*"
+  },
   "scripts": [
     "index.js"
   ],
