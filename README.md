@@ -12,6 +12,8 @@ var el = document.querySelector('.scrollable');
 fix(el);
 ```
 
+The scrollable element should be overflow, and it is recommand to set `min-height: 100%;` to the first child element.
+
 ## License
 
 The MIT License (MIT)
