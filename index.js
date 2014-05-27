@@ -7,7 +7,10 @@ document.addEventListener('touchmove', function(e) {
 });
 
 function ontouchmove(e) {
-  e.stopPropagation();
+  var el = e.currentTarget;
+  if (el.scrollHeight > el.clientHeight) {
+    e.stopPropagation();
+  }
 }
 
 function ontouchstart(e) {
