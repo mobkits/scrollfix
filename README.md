@@ -12,7 +12,7 @@ var el = document.querySelector('.scrollable');
 fix(el);
 ```
 
-The scrollable element should be overflow, and it is recommand to set `min-height: 100%;` to the first child element.
+Set child element with css `min-height: 100%;` to force scroll.
 
 ## License
 
