@@ -4,6 +4,9 @@ Fix stupid ios over scroll feature;
 
 <http://stackoverflow.com/questions/10238084/ios-safari-how-to-disable-overscroll-but-allow-scrollable-divs-to-scroll-norma>
 
+This solution add `e.preventDefault()` to `touchmove` on document, this may have side effect
+Registed events are automatically removed when element removed.
+
 ## API
 
 ```js
