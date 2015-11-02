@@ -11,4 +11,7 @@ components: component.json
 clean:
 	rm -rf components build
 
+doc:
+	@ghp-import example -n -p
+
 .PHONY: clean
