@@ -1,0 +1,29 @@
+{
+  "name": "component-scrollfix",
+  "version": "0.0.1",
+  "description": "fix stupid ios over scroll",
+  "main": "index.js",
+  "scripts": {
+    "test": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemzqm/scrollfix.git"
+  },
+  "keywords": [
+    "scrollfix"
+  ],
+  "author": "chemzqm@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chemzqm/scrollfix/issues"
+  },
+  "homepage": "https://github.com/chemzqm/scrollfix#readme",
+  "dependencies": {
+    "component-event": "^0.1.4",
+    "removed": "0.0.5"
+  },
+  "browser": {
+    "event": "component-event"
+  }
+}
