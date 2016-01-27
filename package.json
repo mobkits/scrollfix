@@ -1,6 +1,6 @@
 {
   "name": "component-scrollfix",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fix stupid ios over scroll",
   "main": "index.js",
   "scripts": {
