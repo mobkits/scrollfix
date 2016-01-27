@@ -25,8 +25,9 @@ function ontouchstart(e) {
 module.exports = function (el) {
   events.bind(el, 'touchmove', ontouchmove);
   events.bind(el, 'touchstart', ontouchstart);
-  removed(el, function () {
-    events.unbind(el, 'touchmove', ontouchmove);
-    events.unbind(el, 'touchstart', ontouchstart);
-  })
+}
+
+exports.unbind = function (el) {
+  events.unbind(el, 'touchmove', ontouchmove);
+  events.unbind(el, 'touchstart', ontouchstart);
 }

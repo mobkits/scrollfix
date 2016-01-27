@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/chemzqm/scrollfix#readme",
   "dependencies": {
-    "component-event": "^0.1.4",
-    "removed": "0.0.5"
+    "component-event": "^0.1.4"
   },
   "browser": {
     "event": "component-event"
