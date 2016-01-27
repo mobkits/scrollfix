@@ -1,5 +1,4 @@
 var events = require('event');
-var removed = require('removed');
 
 //not draggable
 document.addEventListener('touchmove', function(e) {
